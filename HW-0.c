@@ -35,5 +35,5 @@ int main()
 	if (n == 1)
 		printf("N");
 		
-		return 0;
+	return 0;
 }

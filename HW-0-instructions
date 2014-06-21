@@ -1,0 +1,2 @@
+Write a program that reads from standard input a positive integer.
+The standard output is Y, if the read number is prime, otherwise N.

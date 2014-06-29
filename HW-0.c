@@ -7,12 +7,15 @@ int main()
 	//insert number
 	do
 	{
-		c=getchar();
+		c = getchar();
+		
 		if(('0' <= c) && (c <= '9'))
 			n = 10 * n + (c - ('0'));
+			
 		else
 			if(c != '\n')
 				exit(1);
+				
 	}while (c != '\n');
 
 	//number we write inASCII code)
@@ -31,7 +34,6 @@ int main()
 		printf("Y");
 
 	//number 1 is not a prime number
-
 	if (n == 1)
 		printf("N");
 		
